@@ -1,0 +1,10 @@
+syntax = "proto3";
+package example;
+
+option go_package = "protos/poplaukhin";
+
+message Person {
+  string name = 1;
+  int32 id = 2;
+  repeated string phones = 3;
+}
